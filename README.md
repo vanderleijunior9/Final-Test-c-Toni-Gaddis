@@ -1,44 +1,37 @@
-🧑‍🤝‍🧑 Person Database System 📊
-A simple C++ application that reads person data from a file, displays the database, and identifies people younger than the average age.
+# 🧑‍💻 Springfield People Database
 
-📋 Features
-✅ Reads person data from a text file
-📊 Displays the complete database of people
-📉 Calculates the average age of all people
-👶 Identifies and displays people younger than the average age
-🔧 How It Works
-The program reads a comma-separated values file containing person records
-Each record includes an ID, name, and age
-The program displays all records in the database
-It then calculates the average age across all people
-Finally, it identifies and displays people who are younger than the average
-🚀 Usage
-# Compile the program
-g++ -o people_db main.cpp person.cpp
+This is a simple C++ console application that reads a list of people from a file and displays them, along with a filtered list of individuals who are younger than the average age.
 
-# Run the program
-./people_db
+---
 
-📁 File Format
-The input file should contain comma-separated values in the following format:
+## 📁 Project Structure
 
-id,name,age
 
-Example:
+---
 
-1,Homer Simpson,39
-2,Marge Simpson,36
-3,Bart Simpson,10
+## 🛠️ Features
 
-🔍 Dependencies
-C++ Standard Library
-Person class (defined in "person.hpp" and implemented in "person.cpp")
-⚙️ Configuration
-You may need to modify the file path in the makeDatabase() function to point to your data file:
+- ✅ Load and parse a file containing a list of people  
+- ✅ Display the full database  
+- ✅ Calculate the average (mean) age  
+- ✅ Print people younger than the average  
 
-const string filepath = "path/to/your/data/file.txt";
+---
 
-📝 License
-MIT License
+## 📥 Input File Format (`springfieldPeople.txt`)
 
-Feel free to contribute to this project by submitting issues or pull requests! 🙌
+Each line should follow this format:
+
+
+---
+
+## ▶️ How to Run
+
+1. Ensure the file path in `makeDatabase()` matches your file location.
+2. Compile and run the code using your terminal:
+
+```bash
+g++ main.cpp person.cpp -o peopleDB
+./peopleDB
+
+Let me know if you’d like to include the `person.hpp` or `person.cpp` template as well!
