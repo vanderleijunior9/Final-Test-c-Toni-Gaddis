@@ -4,9 +4,6 @@ This is a simple C++ console application that reads a list of people from a file
 
 ---
 
-## 📁 Project Structure
-📦 springfield-people-db ├── 📄 main.cpp ├── 📄 person.hpp ├── 📄 person.cpp └── 📄 springfieldPeople.txt
-
 ---
 
 ## 🛠️ Features
