@@ -19,16 +19,9 @@ This is a simple C++ console application that reads a list of people from a file
 
 Each line should follow this format:
 
-
+id,name,age
 ---
 
-## ▶️ How to Run
+## output 
+![Screenshot 2024-12-09 at 9 03 16 PM](https://github.com/user-attachments/assets/932b8f7c-3b36-4931-93ba-0f35f5fc60f3)
 
-1. Ensure the file path in `makeDatabase()` matches your file location.
-2. Compile and run the code using your terminal:
-
-```bash
-g++ main.cpp person.cpp -o peopleDB
-./peopleDB
-
-Let me know if you’d like to include the `person.hpp` or `person.cpp` template as well!
